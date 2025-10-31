@@ -238,9 +238,9 @@ class PrintViewModel(val app: Application) : AndroidViewModel(app) {
             canvas.drawText("KRNL D", _startX + 81.3.toPxX(), _startY - 19.63.toPxY(), textPainter)
             canvas.drawText("CONS P", _startX + 81.3.toPxX(), _startY - 16.63.toPxY(), textPainter)
 
-            canvas.drawText("USR O", _startX + 87.7.toPxX(), _startY - 25.63.toPxY(), textPainter)
-            canvas.drawText("SUPR O", _startX + 87.7.toPxX(), _startY - 22.63.toPxY(), textPainter)
-            canvas.drawText("KRNL O", _startX + 87.7.toPxX(), _startY - 19.63.toPxY(), textPainter)
+            canvas.drawText("USR I", _startX + 87.7.toPxX(), _startY - 25.63.toPxY(), textPainter)
+            canvas.drawText("SUPR I", _startX + 87.7.toPxX(), _startY - 22.63.toPxY(), textPainter)
+            canvas.drawText("KRNL I", _startX + 87.7.toPxX(), _startY - 19.63.toPxY(), textPainter)
             canvas.drawText("PROG P", _startX + 87.7.toPxX(), _startY - 16.63.toPxY(), textPainter)
 
             canvas.drawText("DATA", _startX + 81.3.toPxX(), _startY - 12.47.toPxY(), textPainter)
